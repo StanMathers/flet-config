@@ -22,7 +22,6 @@ class Meta(type):
         self.attrs = attrs
 
         self._from_filename(self._include_attrs)
-        print(self._include_attrs)
         setattr(
             self, "_set_page_attrs", self._set_page_attrs
         )  # Add _set_page_attrs method to every child class to be called from Page class
