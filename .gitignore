@@ -1,0 +1,9 @@
+/settings
+/env
+config.json
+setup.py
+tempCode*
+app.py
+app2.py
+__pycache__/
+.gitignore
